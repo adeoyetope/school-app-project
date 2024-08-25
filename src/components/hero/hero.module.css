@@ -1,0 +1,59 @@
+.hero {
+  color: black;
+  height: 500px;
+  /* background-color: blue; */
+  /* margin-top: 200px; */
+  /* margin-left: 210px; */
+  /* margin-right: 210px; */
+  background: linear-gradient(rgba(8, 0, 58, 0.4), rgba(0, 0, 58, 0.7)),
+    url("../../assets/most-common-interview-questions.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.text {
+  text-align: center;
+  max-width: 800px;
+}
+.hero h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: 700;
+}
+.hero p {
+  max-width: 800px;
+  margin: 10px auto 20px;
+  line-height: 1.4;
+}
+button img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.btn {
+  padding: 15px;
+  border-radius: 50px;
+  background-color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn:hover {
+  background-color: rgb(233, 160, 66);
+}
+.pbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

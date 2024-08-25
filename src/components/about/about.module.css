@@ -1,0 +1,53 @@
+.about {
+  margin: 100px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.playContainer {
+  display: contents;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.aboutLeft {
+  flex-basis: 40%;
+}
+.aboutRight {
+  flex-basis: 56%;
+}
+
+.img1 {
+  width: 330px;
+  height: 330px;
+  border-radius: 20px;
+  position: relative;
+}
+.img2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: -200px;
+}
+.aboutRight h3 {
+  display: flex;
+  color: blue;
+  font-weight: 500;
+  font-size: 16px;
+}
+.aboutRight h2 {
+  font-size: 32px;
+  font-size: 600;
+  max-width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.aboutRight p {
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+}

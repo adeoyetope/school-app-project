@@ -1,0 +1,88 @@
+.modal_backdrop {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+}
+.modal_content {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(40px);
+  padding: 24px 32px;
+  width: 800px;
+  margin: auto;
+  gap: 20px;
+  border-radius: 20px;
+  transition: all0.2s ease-in-out;
+}
+.modal_backdrop .modal_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal_backdrop .modal_content .modal_header .btn {
+  flex: -1;
+  display: flex-end;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding: 5px;
+}
+.modal_backdrop .modal_content .modal_header .btn:hover {
+  background: transparent;
+}
+.modal_backdrop .modal_content .modal_header .btn:active {
+  background: rgb(197, 98, 98);
+}
+.modal_content .modal_footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+  align-items: center;
+  margin-top: 40px;
+}
+.modal_backdrop .modal_content .modal_footer button {
+  border-radius: 10px;
+  padding: 5px;
+  border: 0.1px solid rgba(173, 167, 167, 0.5);
+  outline: none;
+  background: transparent;
+  box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.modal_backdrop .modal_content .modal_footer button:active {
+  background: rgba(0, 0, 0, 0.3);
+}
+.modal_backdrop .modal_content .modal_footer .btn1 {
+  background: rgb(197, 98, 98);
+}
+.modal_backdrop .modal_content .modal_footer .btn2 {
+  background: rgba(10, 238, 97, 0.973);
+}
+.modal_backdrop .modal_content input {
+  padding: 10px;
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 10px;
+  background: transparent;
+  border: 0.1px solid rgba(173, 167, 167, 0.5);
+}
+
+.video {
+  width: 600px;
+  /* max-width: 800px; */
+  height: 200px;
+  margin: 2px solid gold;
+  box-shadow: 0 7px 7px 5px grey, 0 7px 7px 5px gold, 0 7px 7px 5px grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
